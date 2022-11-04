@@ -9,7 +9,7 @@ Wang, Xiaojing, Liu, Tianqi, and Miao, Jingang. (2019). A Deep Probabilistic Mod
  Run the below command in command prompt(cmd) to install directly:
 
 ```
-pip install https://github.com/djdeepak72/ziln-cltv.git
+pip install git+https://github.com/djdeepak72/ziln_cltv.git
 ```
 
 OR
@@ -38,5 +38,5 @@ So ideally you would need to build CLTV models to predict the lifetime value of 
 
 ## How do I use this package?
 
-You can learn more about the package by following the notebook in the [tutorial]() folder which uses [Kaggle Acquire Valued Shoppers Challenge](https://www.kaggle.com/c/acquire-valued-shoppers-challenge/data) LTV competition dataset & shows you how to build & train your CLTV model & evaluate performance of both LTV & Churn predictions.
+You can learn more about the package by following the notebook in the [tutorial](tutorial) folder which uses [Kaggle Acquire Valued Shoppers Challenge](https://www.kaggle.com/c/acquire-valued-shoppers-challenge/data) LTV competition dataset & shows you how to build & train your CLTV model & evaluate performance of both LTV & Churn predictions.
 
