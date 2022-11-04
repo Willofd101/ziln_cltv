@@ -24,9 +24,9 @@ pip install .
 
 ## What is this package used for?
 
-`ziln_cltv` is a user-friendly packaged form of research conducted by google to train neural network models to predict Customer Lifetime Value. What makes this research special is the use of zero-inflated lognormal (ziln) loss in building CLTV models where the distribution of LTV is heavily-tailed. Usually majority of customers donot come back to buy products which makes the dataset consisting of customers with zero ltv. Metrics like mean squared error cannot account for such skewed distribution cause due to one-time customers, hence making models very volatile.
+`ziln_cltv` is a user-friendly packaged form of research conducted by google to train neural network models to predict Customer Lifetime Value. What makes this research special is the use of zero-inflated lognormal (ziln) loss in building CLTV models where the distribution of LTV is heavily-tailed. Usually majority of customers donot come back to buy products which causes your dataset to have many customers with zero ltv. Metrics like mean squared error cannot account for such skewed distribution because of these one-time customers, hence making models very volatile.
 
-ZILN distribution models LTV as mix of zero point mass & lognormal distribution. This lets you model both the skewed nature of LTV as well as the churn probability associated with it, giving you easy uncertainity quantification of the point prediction. 
+ZILN distribution models LTV as mix of zero point mass & lognormal distribution. This lets you model both the skewed nature of LTV as well as the churn probability associated with it, giving you easy uncertainity quantification of your point prediction. 
 
 ## What data do you need to build CLTV models using this package?
 
