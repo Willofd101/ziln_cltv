@@ -1,6 +1,6 @@
 # ZILN_CLTV
 
-A python package to train & evaluate Customer Lifetime Value(CLTV) models using Neural Networks & [ZILN loss](https://github.com/google/lifetime_value) developed Google.
+A python package to train & evaluate Customer Lifetime Value(CLTV) models using Neural Networks & [ZILN loss](https://github.com/google/lifetime_value).
 
 ## Paper
 Wang, Xiaojing, Liu, Tianqi, and Miao, Jingang. (2019). A Deep Probabilistic Model for Customer Lifetime Value Prediction : [arXiv:1912.07753](https://arxiv.org/abs/1912.07753).
